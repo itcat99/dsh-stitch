@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Google Stitch",
+    "description": "Connect Google Stitch over MCP, enter the API key or OAuth token in settings, and load the official Stitch Agent Skills."
+  }
+}

@@ -1,0 +1,14 @@
+The skill directories in this folder are vendored from
+
+  google-labs-code/stitch-skills
+  https://github.com/google-labs-code/stitch-skills
+
+at the commit recorded in manifest.json, under the Apache License 2.0
+(see LICENSE in this folder).
+
+Local modifications for DeepSeek Harness:
+- skills/upload-to-stitch/SKILL.md: replaced the instructions that scavenge
+  an API key from other agents' config files with the native
+  `stitch_upload_screen` tool provided by dsh-stitch.
+- All skills are registered under `stitch-` prefixed names because the
+  upstream `stitch::name` form is not a valid DSH skill name.

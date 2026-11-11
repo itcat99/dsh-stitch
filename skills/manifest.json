@@ -1,0 +1,103 @@
+{
+  "source": "google-labs-code/stitch-skills",
+  "commit": "0337446dadde6f8c94210444e2aa9d546126480f",
+  "license": "Apache-2.0",
+  "skills": [
+    {
+      "name": "stitch-generate-design",
+      "dir": "generate-design",
+      "group": "design",
+      "description": "Generate or edit Stitch screens and variants from text or images, with prompt enhancement and design-system awareness."
+    },
+    {
+      "name": "stitch-manage-design-system",
+      "dir": "manage-design-system",
+      "group": "design",
+      "description": "Create, update, list, and apply Stitch design systems to screens."
+    },
+    {
+      "name": "stitch-extract-design-md",
+      "dir": "extract-design-md",
+      "group": "design",
+      "description": "Extract a DESIGN.md design system from existing frontend source code."
+    },
+    {
+      "name": "stitch-extract-static-html",
+      "dir": "extract-static-html",
+      "group": "design",
+      "description": "Capture a built page or component as self-contained static HTML for Stitch upload."
+    },
+    {
+      "name": "stitch-code-to-design",
+      "dir": "code-to-design",
+      "group": "design",
+      "description": "Round-trip existing frontend code into Stitch by extracting HTML and design tokens, then uploading."
+    },
+    {
+      "name": "stitch-upload-to-stitch",
+      "dir": "upload-to-stitch",
+      "group": "design",
+      "description": "Upload local images, HTML, or DESIGN.md files to a Stitch project."
+    },
+    {
+      "name": "stitch-react-components",
+      "dir": "react-components",
+      "group": "build",
+      "description": "Convert Stitch screens into modular React + Vite components with AST validation."
+    },
+    {
+      "name": "stitch-react-native",
+      "dir": "react-native",
+      "group": "build",
+      "description": "Convert Stitch screens into React Native components using StyleSheet."
+    },
+    {
+      "name": "stitch-react-vite-dashboard",
+      "dir": "react-vite-dashboard",
+      "group": "build",
+      "description": "Build React + Vite dashboards from Stitch designs with TanStack Query and DESIGN.md tokens."
+    },
+    {
+      "name": "stitch-remotion",
+      "dir": "remotion",
+      "group": "build",
+      "description": "Generate walkthrough videos of Stitch projects with Remotion."
+    },
+    {
+      "name": "stitch-shadcn-ui",
+      "dir": "shadcn-ui",
+      "group": "build",
+      "description": "Integrate, install, and customize shadcn/ui component libraries."
+    },
+    {
+      "name": "stitch-design-md",
+      "dir": "design-md",
+      "group": "utilities",
+      "description": "Synthesize a semantic DESIGN.md design system from a Stitch project."
+    },
+    {
+      "name": "stitch-enhance-prompt",
+      "dir": "enhance-prompt",
+      "group": "utilities",
+      "description": "Turn a rough UI idea into a structured, Stitch-ready generation prompt."
+    },
+    {
+      "name": "stitch-site-md",
+      "dir": "site-md",
+      "group": "utilities",
+      "description": "Create a SITE.md project constitution for multi-page Stitch builds."
+    },
+    {
+      "name": "stitch-loop",
+      "dir": "stitch-loop",
+      "group": "utilities",
+      "description": "Iteratively build a website with Stitch using an autonomous baton-passing loop."
+    },
+    {
+      "name": "stitch-taste-design",
+      "dir": "taste-design",
+      "group": "utilities",
+      "description": "Enforce premium, anti-generic visual standards in DESIGN.md files."
+    }
+  ]
+}

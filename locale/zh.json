@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Google Stitch",
+    "description": "通过 MCP 接入 Google Stitch，在设置面板填入 API Key 或 OAuth Token，并加载官方 Stitch Agent Skills。"
+  }
+}

@@ -1,0 +1,17 @@
+# Google Stitch integration for DeepSeek Harness.
+# The credential itself is NOT stored here: enter it in
+# Settings -> Plugins -> Google Stitch. It is kept in the DSH credential store.
+- insert:
+    - id: dsh-stitch
+      name: dsh-stitch
+      config:
+        apiUrl: https://stitch.googleapis.com/mcp
+        apiBase: https://stitch.googleapis.com
+        toolCallTimeoutMs: 180000
+        enableSkills: true
+        skillGroups:
+          - design
+          - build
+          - utilities
+        autoConnect: true
+        maxUploadBytes: 20971520
